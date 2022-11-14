@@ -1,0 +1,49 @@
+<html>
+<head>
+
+	<title>OBJECT FINDER WEB APP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="BEAUTIFULBACKDROP.jpeg">
+<center>
+<h1>
+  OBJECT FINDER WEB APP
+</h1>
+<br><br>
+<button> 
+    !HOW TO USE!<br>
+    Enter the name of an object in the given input area. <br> When it will get detected the webapp will speak it out loud for you.<br>
+    The object's name which you will enter should match the name present in the CoCo model. <br>
+    Scroll down to see live webcam view properly and vice-versa.
+
+</button><br><br>
+<input type="text" id="textinput" placeholder="Enter Object Name Here">
+<br><br>
+<button onclick="start()"> 
+START DETECTION
+</button>
+<br><br>
+<h3 id="status">
+ Status will be displayed here
+</h3>
+<h3 id="isobjectfound">
+ Object found or not will be displayed here
+</h3>
+</center>
+
+
+<script src="main.js"></script>
+
+</body>
+
+</html>

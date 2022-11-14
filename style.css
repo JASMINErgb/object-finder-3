@@ -1,0 +1,29 @@
+body{
+    background-size: cover;
+}
+h1{
+    background-image: linear-gradient(red,yellow);
+    font-family: cursive;
+    border: 5px solid black;
+    color: black;
+}
+button{
+    color:yellow;
+    background-image: linear-gradient(black,blue);
+    font-size: 25px;
+}
+h3{
+    background-image: linear-gradient(hotpink,orange);
+    font-family: sans-serif;
+    color: black;
+    border: solid 5px red;
+}
+input{
+    font-size: 25px;
+}
+canvas{
+    background-image: linear-gradient(magenta,aqua);
+    border: 5px solid salmon;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px aquamarine;
+}
